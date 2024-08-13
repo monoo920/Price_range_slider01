@@ -119,5 +119,33 @@ input[type="range"]::-webkit-slider-thumb {
     pointer-events: auto;
     -webkit-appearance: none; 
 }
+@media screen and (max-width: 1028px) {
+    .container{
+        width: 80%;
+        margin-right: 5px;
+    }
+
+    .custom-wrapper {
+        width: 80%;
+        left: 0;
+        padding: 0 10px;
+    }
+
+    .ptitle {
+        width: 100%;
+        position: relative;
+        right: 26px;
+    }
+
+    .price-in {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-field {
+        margin-bottom: 10px;
+    }
+}
+
 
 
